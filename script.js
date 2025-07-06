@@ -31,7 +31,7 @@ window.addEventListener('scroll', () => {
 });
 
 // Form validation
-const contactForm = document.querySelector('.contact__form form');
+const contactForm = document.getElementById('contact-form');
 if (contactForm) {
     contactForm.addEventListener('submit', (e) => {
         e.preventDefault();
